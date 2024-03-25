@@ -13,7 +13,7 @@ export const config: Config = {
       images: [
         {
           url: "/images/marketing/banner.png",
-          alt: "Marketing Banner for SKVAD Community",
+          alt: "Banner",
         },
       ],
     },
@@ -90,7 +90,7 @@ export const config: Config = {
   servers: [
     {
       name: 'Dva Světy',
-      ipv4: '93.99.7.63:2922',
+      ipv4: '93.99.7.63',
       gamePort: 2922,
       steamQueryPort: 2923,
       cftoolsApiId: '535e10c0-c6f2-4936-a196-c5228a863f10',
@@ -107,7 +107,7 @@ export const config: Config = {
   },
   footer: {
     trademarkNotice: "",
-    brandingName: "Dve Světy komunita",
+    brandingName: "Dva Světy komunita",
     brandingURL: '/',
     initialCopyrightYear: 2023,
     copyrightBrandName: "Dva Svety",
