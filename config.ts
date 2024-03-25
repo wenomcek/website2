@@ -92,7 +92,7 @@ export const config: Config = {
       name: 'Dva Světy',
       ipv4: '93.99.7.63',
       gamePort: 2922,
-      steamQueryPort: 2923,
+      steamQueryPort: 2922,
       cftoolsApiId: '535e10c0-c6f2-4936-a196-c5228a863f10',
     },
   ],
