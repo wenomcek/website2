@@ -48,7 +48,7 @@ const Footer = () => {
           . All Rights Reserved.
         </span>
         <div className="text-center text-gray-500 sm:text-center dark:text-gray-400">
-          Created with ❤️ by <Link
+         /* Created with ❤️ by <Link
             href={'https://mirasaki.dev'}
             className='hover:underline hover:text-white'
             target='_blank'
@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
         <p className='my-2 text-gray-500 dark:text-gray-400 text-sm max-w-xl mx-auto'>
           {config.footer.trademarkNotice}
-        </p>
+        </p>*/
       </div>
     </footer>
   );
