@@ -74,7 +74,7 @@ export const ServerCard = async ({
       </p>
       <div className='flex items-center'>
         <CopyButton text={`${server.ipv4}:${server.gamePort}`} className='w-full'>
-          Copy Server IP
+          Zkopírovat IP
         </CopyButton>
       </div>
     </div>
