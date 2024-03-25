@@ -20,20 +20,20 @@ export const config: Config = {
   },
   pages: {
     home: {
-      title: "Home | SKVAD Community",
-      description: "Welcome to the SKVAD Community! We are a DayZ community that is dedicated to providing the best experience for our players. Join us today!",
+      title: "Domov | Dva Světy",
+      description: "Vítejte v komunitě Dva Světy! Jsme komunita DayZ, která se věnuje poskytování nejlepších zkušeností našim hráčům. Přidejte se k nám ještě dnes!",
       sections: {
         network: {
           title: "Server Network",
-          description: "Our DayZ servers are hosted in Europe and are maintained by our dedicated team of developers and system administrators.",
+          description: "Naše servery DayZ jsou hostovány v Evropě a jsou spravovány naším specializovaným týmem vývojářů a systémových administrátorů.",
         },
         about: {
           title: "About Us",
-          description: "We are a community of DayZ players who are passionate about the game and the experiences it provides. We strive to provide a safe and enjoyable environment for all players.",
+          description: "Jsme komunita hráčů DayZ, kteří jsou nadšení pro hru a zážitky, které poskytuje. Snažíme se poskytnout bezpečné a příjemné prostředí pro všechny hráče.",
           rows: {
             1: {
               title: "Events",
-              description: "We host regular events and competitions for our players to participate in. These events are a great way to meet new people and have fun in the game.",
+              description: "Pořádáme pravidelné akce a soutěže, kterých se mohou naši hráči zúčastnit. Tyto akce jsou skvělým způsobem, jak poznat nové lidi a pobavit se ve hře.",
               image: {
                 url: "/images/about/events.jpg",
                 alt: "Events Image",
@@ -41,7 +41,7 @@ export const config: Config = {
             },
             2: {
               title: "Community",
-              description: "We believe that a strong community is the key to a successful server. We work hard to foster a positive and inclusive community for all players.",
+              description: "Věříme, že silná komunita je klíčem k úspěšnému serveru. Usilovně pracujeme na podpoře pozitivní a inkluzivní komunity pro všechny hráče.",
               image: {
                 url: "/images/about/community.jpg",
                 alt: "Community Image",
@@ -49,7 +49,7 @@ export const config: Config = {
             },
             3: {
               title: "Development",
-              description: "Our team of developers are constantly working to improve the server and add new features. We welcome feedback and suggestions from our players.",
+              description: "Náš tým vývojářů neustále pracuje na vylepšení serveru a přidávání nových funkcí. Uvítáme zpětnou vazbu a návrhy od našich hráčů.",
               image: {
                 url: "/images/about/development.png",
                 alt: "Development Image",
@@ -59,22 +59,22 @@ export const config: Config = {
         },
         leaderboard: {
           title: "Leaderboard",
-          description: "Check out the top players on our servers and see how you compare. Can you make it to the top of the leaderboard?",
+          description: "Podívejte se na nejlepší hráče na našich serverech a uvidíte, jak si stojíte. Dokážete se dostat na vrchol žebříčku?",
         },
         contact: {
           title: "Contact Us",
-          description: "If you have any questions or concerns, please don't hesitate to contact us through the following channels.",
+          description: "Máte-li jakékoli dotazy nebo obavy, neváhejte nás kontaktovat prostřednictvím následujících kanálů.",
           links: {
-            'Discord': "https://discord.gg/skvad",
-            'Email': "mailto:info@skvad.eu",
+            'Discord': "https://discord.gg/dvasvety",
+            'Email': "",
           },
         },
       },
     },
   },
   hero: {
-    title: "We listen, we learn, we deliver.",
-    description: "Our DayZ Community is built on the principles of transparency, integrity, and trust. We are committed to providing the best experience for our players. Wether you are a seasoned veteran or a new player, we have a place for you.",
+    title: "Nasloucháme, učíme se, dodáváme.",
+    description: "Naše komunita DayZ je postavena na principech transparentnosti, integrity a důvěry. Zavázali jsme se poskytovat našim hráčům ten nejlepší zážitek. Ať už jste ostřílený veterán nebo nový hráč, máme pro vás místo.",
     background: {
       color: 'rgb(51 65 85)',
       image: {
@@ -84,7 +84,7 @@ export const config: Config = {
     },
     cta: {
       label: "Join us today!",
-      href: "https://discord.gg/mirasaki",
+      href: "https://discord.gg/dvasvety",
     },
   },
   servers: [
@@ -115,31 +115,7 @@ export const config: Config = {
     links: [
       {
         url: '#',
-        label: 'About',
-      },
-      {
-        url: '#',
-        label: 'Meet the Team',
-      },
-      {
-        url: '#',
-        label: 'Campaigns',
-      },
-      {
-        url: '#',
-        label: 'Blog',
-      },
-      {
-        url: '#',
-        label: 'Affiliate Program',
-      },
-      {
-        url: '#',
-        label: 'FAQs',
-      },
-      {
-        url: '#',
-        label: 'Contact',
+        label: 'O Nás',
       },
     ],
   },
