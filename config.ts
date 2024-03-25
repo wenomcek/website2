@@ -89,11 +89,11 @@ export const config: Config = {
   },
   servers: [
     {
-      name: 'SKVAD EU1',
-      ipv4: '193.25.252.92',
-      gamePort: 2302,
-      steamQueryPort: 27016,
-      cftoolsApiId: '7732f152-3b6b-4da5-9356-b43ebfef2012',
+      name: 'Dva Světy',
+      ipv4: '93.99.7.63',
+      gamePort: 2922,
+      steamQueryPort: 2923,
+      cftoolsApiId: '535e10c0-c6f2-4936-a196-c5228a863f10',
     },
     {
       name: 'SKVAD EU2',
