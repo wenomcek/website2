@@ -2,7 +2,7 @@ import { Config } from './src/lib/config.types';
 
 export const config: Config = {
   themeColor: "#5789f6",
-  logoURL: "/images/logos/dayz2.png",
+  logoURL: "/images/logos/dayz.png",
   site: {
     url: "https://dayzstandalone.cz/",
     title: "Dva Světy",
