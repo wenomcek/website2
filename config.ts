@@ -20,19 +20,19 @@ export const config: Config = {
   },
   pages: {
     home: {
-      title: "Domov | Dva Světy",
+      title: "DayZ | Dva Světy",
       description: "Vítejte v komunitě Dva Světy! Jsme komunita DayZ, která se věnuje poskytování nejlepších zkušeností našim hráčům. Přidejte se k nám ještě dnes!",
       sections: {
         network: {
-          title: "Server Network",
+          title: "Servery",
           description: "Naše servery DayZ jsou hostovány v Evropě a jsou spravovány naším specializovaným týmem vývojářů a systémových administrátorů.",
         },
         about: {
-          title: "About Us",
+          title: "O Nás",
           description: "Jsme komunita hráčů DayZ, kteří jsou nadšení pro hru a zážitky, které poskytuje. Snažíme se poskytnout bezpečné a příjemné prostředí pro všechny hráče.",
           rows: {
             1: {
-              title: "Events",
+              title: "Eventy",
               description: "Pořádáme pravidelné akce a soutěže, kterých se mohou naši hráči zúčastnit. Tyto akce jsou skvělým způsobem, jak poznat nové lidi a pobavit se ve hře.",
               image: {
                 url: "/images/about/events.jpg",
@@ -40,7 +40,7 @@ export const config: Config = {
               },
             },
             2: {
-              title: "Community",
+              title: "Komunita",
               description: "Věříme, že silná komunita je klíčem k úspěšnému serveru. Usilovně pracujeme na podpoře pozitivní a inkluzivní komunity pro všechny hráče.",
               image: {
                 url: "/images/about/community.jpg",
@@ -58,11 +58,11 @@ export const config: Config = {
           },
         },
         leaderboard: {
-          title: "Leaderboard",
+          title: "Žebříček",
           description: "Podívejte se na nejlepší hráče na našich serverech a uvidíte, jak si stojíte. Dokážete se dostat na vrchol žebříčku?",
         },
         contact: {
-          title: "Contact Us",
+          title: "Kontaktujte nás",
           description: "Máte-li jakékoli dotazy nebo obavy, neváhejte nás kontaktovat prostřednictvím následujících kanálů.",
           links: {
             'Discord': "https://discord.gg/dvasvety",
@@ -83,16 +83,16 @@ export const config: Config = {
       },
     },
     cta: {
-      label: "Join us today!",
+      label: "Připoj se k nám!",
       href: "https://discord.gg/dvasvety",
     },
   },
   servers: [
     {
       name: 'Dva Světy',
-      ipv4: '93.99.7.63',
+      ipv4: '93.99.7.63:2922',
       gamePort: 2922,
-      steamQueryPort: 2922,
+      steamQueryPort: 2923,
       cftoolsApiId: '535e10c0-c6f2-4936-a196-c5228a863f10',
     },
   ],
@@ -106,11 +106,11 @@ export const config: Config = {
     },
   },
   footer: {
-    trademarkNotice: "The DayZ logo is a registered trademark of Bohemia Interactive a.s. SKVAD is not affiliated with Bohemia Interactive a.s. or DayZ. All other trademarks are the property of their respective owners.",
-    brandingName: "SKVAD Community",
+    trademarkNotice: "",
+    brandingName: "Dve Světy komunita",
     brandingURL: '/',
-    initialCopyrightYear: 2021,
-    copyrightBrandName: "SKVAD",
+    initialCopyrightYear: 2023,
+    copyrightBrandName: "Dva Svety",
     copyrightBrandUrl: '/',
     links: [
       {
