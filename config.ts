@@ -4,8 +4,8 @@ export const config: Config = {
   themeColor: "#5789f6",
   logoURL: "/images/logo.png",
   site: {
-    url: "https://www.skvad.eu/",
-    title: "SKVAD Community",
+    url: "https://dayzstandalone.cz/",
+    title: "Dva Světy",
     twitter: {
       site: "@site",
       creator: "@creator",
@@ -95,20 +95,6 @@ export const config: Config = {
       steamQueryPort: 2923,
       cftoolsApiId: '535e10c0-c6f2-4936-a196-c5228a863f10',
     },
-    {
-      name: 'SKVAD EU2',
-      ipv4: '193.25.252.24',
-      gamePort: 2302,
-      steamQueryPort: 27016,
-      cftoolsApiId: '40dfcdf1-2e38-4a86-8b36-f02e4c868bf5',
-    },
-    {
-      name: 'SKVAD EU3',
-      ipv4: '193.25.252.92',
-      gamePort: 2402,
-      steamQueryPort: 27016,
-      cftoolsApiId: '16c3c8d1-9e15-4729-a541-8a578288e43d',
-    },
   ],
   cftools: {
     leaderboard: {
@@ -116,7 +102,7 @@ export const config: Config = {
       defaultSortValue: 'kills',
       allowedSortValues: ['kills', 'deaths', 'kdratio', 'longest_kill', 'longest_shot', 'playtime', 'suicides'],
       blacklistedCFToolsIds: [],
-      showAmount: 100,
+      showAmount: 30,
     },
   },
   footer: {
