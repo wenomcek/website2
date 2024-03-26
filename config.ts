@@ -66,7 +66,8 @@ export const config: Config = {
           description: "Máte-li jakékoli dotazy nebo obavy, neváhejte nás kontaktovat prostřednictvím následujících kanálů.",
           links: {
             'Discord': "https://discord.gg/dvasvety",
-            'Email': "",
+            'Facebook': "https://www.facebook.com/groups/1123159632423918",
+            'Youtube': "https://www.youtube.com/@DayZ-2svety/videos",
           },
         },
       },
