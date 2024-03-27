@@ -90,7 +90,7 @@ export const config: Config = {
   },
   servers: [
     {
-      name: 'Dva Světy',
+      name: 'Dva Světy PVE/PVP',
       ipv4: '93.99.7.63',
       gamePort: 2922,
       steamQueryPort: 2923,
