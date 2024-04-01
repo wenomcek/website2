@@ -21,7 +21,7 @@ export const config: Config = {
   pages: {
     home: {
       title: "DayZ | Dva Světy",
-      description: "Vítejte v komunitě Dva Světy! Jsme komunita DayZ, která se věnuje poskytování nejlepších zkušeností našim hráčům. Přidejte se k nám ještě dnes!",
+      description: "Vítejte v komunitě Dva Světy! Jsme komunita DayZ, která se věnuje poskytování nejlepších zkušeností našim hráčům. Přidejte se k nám ještě dnes",
       sections: {
         network: {
           title: "Servery",
